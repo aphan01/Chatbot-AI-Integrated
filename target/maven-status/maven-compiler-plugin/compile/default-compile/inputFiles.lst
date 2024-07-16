@@ -1,0 +1,10 @@
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\Application.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\config\CorsConfig.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\config\VertexAiConfig.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\controller\ChatbotController.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\model\ChatMessage.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\model\ChatResponse.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\repository\ChatMessageRepository.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\service\ChatbotService.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\service\KeywordService.java
+D:\FIS_Code\cbot.beta2\src\main\java\com\example\cbot\beta2\service\VertexAiService.java

@@ -1,0 +1,11 @@
+com\example\cbot\beta2\config\VertexAiConfig.class
+com\example\cbot\beta2\config\CorsConfig$1.class
+com\example\cbot\beta2\repository\ChatMessageRepository.class
+com\example\cbot\beta2\config\CorsConfig.class
+com\example\cbot\beta2\service\ChatbotService.class
+com\example\cbot\beta2\controller\ChatbotController.class
+com\example\cbot\beta2\service\VertexAiService.class
+com\example\cbot\beta2\Application.class
+com\example\cbot\beta2\service\KeywordService.class
+com\example\cbot\beta2\model\ChatMessage.class
+com\example\cbot\beta2\model\ChatResponse.class
