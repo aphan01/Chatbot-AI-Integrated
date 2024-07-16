@@ -1,0 +1,30 @@
+<div class="chatbot-container" [ngClass]="{'minimized': minimized}">
+  <div class="chatbot-header" (click)="toggleMinimize()">
+    <span class="material-icons">chat</span>
+    CHATBOT
+  </div>
+  <div *ngIf="!minimized" class="chatbot-body">
+    <div class="chat-content" #chatBody>
+      <div *ngFor="let chat of chatHistory" class="chat-bubble-container" [ngClass]="{'user-message': chat.isUser, 'bot-response': !chat.isUser}">
+        <div class="chat-bubble">
+          <div class="message-content">
+            <p class="user-text" *ngIf="chat.isUser">{{ chat.message }}</p>
+            <p class="bot-text" *ngIf="!chat.isUser">{{ chat.message }}</p>
+          </div>
+          <div class="buttons-container" *ngIf="chat.buttons && chat.buttons.length > 0">
+            <button *ngFor="let button of chat.buttons" (click)="handleButtonClick(button.nextStep)">
+              {{ button.text }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form (ngSubmit)="sendMessage()" class="chat-input-container">
+      <button type="button" class="reset-button" (click)="resetChat()">
+        <span class="material-icons">refresh</span>
+      </button>
+      <input [(ngModel)]="message" name="message" placeholder="Send message..." required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
